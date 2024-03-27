@@ -1,0 +1,41 @@
+/* .moving-image {
+    position: absolute;
+    top: 0;
+    right: 100%; 
+    animation: moveLeft 5s linear infinite; 
+  }
+  
+  @keyframes moveLeft {
+    0% {
+      right: 100%; 
+    }
+    100% {
+      right: -100%; 
+    }
+  } */
+
+     @keyframes slideIn {
+     
+      0% {
+        transform: translatex(100%);
+      }
+    
+      100% {
+        transform: translatex(0%);
+      }
+    }
+
+    .moving-image {
+margin-left: 200px;
+      animation: slideIn 3s forwards;
+
+    }
+    .about .content ul li{
+      padding: 30px;
+      margin-right: 10px;
+      font-weight: bolder;
+      color: rgb(10, 223, 223);
+      align-items: flex-start;
+      font-size: 20px;
+
+    }

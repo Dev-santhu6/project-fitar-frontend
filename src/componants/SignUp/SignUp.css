@@ -1,0 +1,117 @@
+
+.signupdiv .main-sign_up_container{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(9, 2, 33) 100%), url("../../assets/img/hero-bg.jpg") center center no-repeat;
+
+}
+.signupdiv .sign-up-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(30, 7, 103) 0%, rgba(66, 7, 108, 0.944) 100%), url("../../assets/img/hero-bg.jpg") center center no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 50%;
+    left: 50%;
+    border-radius: 12px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.signupdiv .sign-up-container h3{
+    margin: 2rem;
+    font-size: x-large;
+}
+
+.signupdiv .sign-up-container .input-div {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    /* line-height: 1px; */
+    
+}
+.signupdiv .sign-up-container .input-div input{
+    width: 100%;
+    height: 50px;
+    padding: 6px;
+    outline: none;
+    border: 1px solid rgb(44, 42, 42);
+    border-radius: 4px;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    
+}
+.signupdiv input[type="password"]{
+    width: 100%;
+    
+    height: auto;
+    padding: 6px;
+    outline: none;
+    border: 1px solid rgb(208, 205, 205);
+    border-radius: 4px;
+}
+
+.signupdiv .sign-up-container .input-div label{
+    font-size: small;
+    
+}
+.signupdiv .sign-up-container .input-div input:focus{
+    border: 1px solid bisque;
+    transition: all 300ms ease;
+}
+.signupdiv .sign-up-button {
+    padding: 8px;
+    width: 100%;
+    margin-top: 30px;
+    font-size: medium;
+    border-radius: 4px;
+    color: white;
+    background: linear-gradient(90deg,#0a3175,#052e4a,#1c90be,#142aa7,#082c69,#0c5b98);
+    border: 4px solid rgb(37, 30, 169);
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(124, 120, 120, 0.19);
+}
+.signupdiv .sign-up-button:hover {
+    border: 4px solid rgb(25, 20, 124);
+
+    background: linear-gradient(90deg,#0a3175,#052e4a,#1c90be,#142aa7,#082c69,#0c5b98);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(124, 120, 120, 0.19);
+}
+.signupdiv .sign-up-redirect-p{
+font-size: small;
+width: 100%;
+text-align: start;
+}
+.signupdiv .sign-up-redirect-p a{
+    text-decoration: none;
+    color: rgb(8, 75, 221);
+ }
+ .sign-up-redirect-p a:hover{
+     text-decoration: underline;
+     color: rgb(65, 103, 220);
+  }
+.signupdiv .error-paragraph{
+    position: absolute;
+    top: 0;
+    font-size: small;
+    color: red;
+
+}
+::placeholder{
+    align-items: center;
+    margin-left: 60px !important;
+    color: #3a3939;
+    
+    }   
+label{
+    text-align: left;
+
+}
+

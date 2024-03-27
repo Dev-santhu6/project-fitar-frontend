@@ -1,0 +1,173 @@
+.userprofile{
+    background: linear-gradient(45deg, rgb(9, 2, 32) 0%, rgba(17, 0, 29, 0.944) 100%), url("../../assets//img/hero-bg.jpg") center center no-repeat;
+height: 100vh;
+display: flex;
+justify-content: center;
+}
+.userbutton{
+    background-color: #58c7e9;
+}
+
+.userprofile .details-container {
+    /* margin: 20px; */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.userprofile .details-container .user-icon{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.userprofile .details-container button:hover {
+    background-color: #e0e0e0;
+}
+
+.userprofile .details-container ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.userprofile .details-container ul li {
+    margin-bottom: 10px;
+}
+
+
+
+.userprofile .details-container button.edit-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.userprofile .details-container button.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.userprofile .details-container button.save-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.userprofile .details-container button.save-btn:hover {
+    background-color: #218838;
+}
+
+.user-details .userpara{
+    margin-top: 10px;
+}
+.userprofile .details-container button.cancel-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.userprofile .details-container button.cancel-btn:hover {
+    background-color: #c82333;
+}
+.userprofile .user-details{
+    margin-right: 450px;
+}
+.shop-details{
+    /* margin-left: 300px !important; */
+    margin-top: 0;
+}
+.shop-details .edit-form input{
+    display: block;
+/* width: 40%; */
+/* margin-left: 300px; */
+margin-bottom: 10px;
+    padding: 5px;border-radius: 10px;
+border: none;
+box-shadow: none;
+}
+.shop-details .edit-form input:hover{
+border: 3px solid rgb(42, 233, 42);
+box-shadow: none !important;
+
+}
+.edit-form{
+    margin-right: 50px;
+}
+.userpara p{
+border: 3px solid rgb(24, 204, 228);
+height: 40px;
+text-align: center;
+padding: 5px;
+border-radius: 25px;
+
+}
+
+.details-container {
+    display: flex;
+    margin-top: 100px;
+    /* margin-left: 100px; */
+}
+
+.shop-details-left {
+    margin-left: 20px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    padding: 8px;
+    border-bottom: 2px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+table .tdinfo {
+color: rgb(16, 196, 209);
+}
+
+
+
+@media (max-width:700px){
+.userprofile{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.details-container{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-bottom: none;
+    overflow: hidden !important;
+}
+}

@@ -1,0 +1,95 @@
+/* shopregister.css */
+.shopform p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #21b9fa;
+}
+
+.shopform .shop-form-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.312);
+  z-index: 999;
+}
+
+.shopform .shop-form-content {
+  position: relative;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  height: 110vh;
+  width:100%;
+  margin-top: 100px;
+  margin-right: 150px;
+  /* margin-left: 550px; */
+  /* margin-bottom: 160px; */
+}
+
+.shopform .close1 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.shopform .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shopform .form-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.shopform .hidden1 {
+  display: none;
+}
+
+.shopform form {
+  margin-top: 150px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  height: 50vh;
+}
+
+.shopform input {
+  margin-bottom: 10px;
+  width: 500px;
+  height: 60px;
+  border-radius: 8px;
+  border: #000000;
+
+}
+
+.shopform button {
+  margin-top: 10px;
+  margin-left: 100px;
+  padding: 10px;
+  width: 100%;
+  background-color: #008fcd;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.shopform button:hover {
+  background-color: #2cdbf2;
+  color: #000000;
+}
+
+.shopform :placeholder-shown {
+  margin-left: 10px;
+  border-color: aqua;
+}

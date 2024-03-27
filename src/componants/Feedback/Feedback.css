@@ -1,0 +1,75 @@
+.feedback{
+  background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(9, 2, 33) 100%), url("../../assets/img/hero-bg.jpg") center center ;
+  /* height: 110vh; */
+
+}
+.feedback h1{
+margin-top: 80px;
+
+}
+.feedback .form-field {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
+  margin-top: 60px;
+  font-weight: 500;
+    /* background: linear-gradient(45deg, rgb(1, 12, 23) 0%, rgba(30, 10, 88, 0.89) 100%); */
+
+}
+.feedback .form-field textarea {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  /* min-height: 100px; */
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 15px;
+}
+.feedback .form-field textarea ::placeholder{
+  color: rgb(58, 58, 58);
+  font-family: 'Courier New', Courier, monospace;
+}
+.feedback .container1 {
+  overflow: hidden;
+  /* margin-top: 80px; */
+  /* margin-left: 100px; */
+align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+    /* background: linear-gradient(45deg, rgb(1, 12, 23) 0%, rgba(30, 10, 88, 0.89) 100%); */
+
+}
+
+@media (max-width: 300px) {
+ 
+  .feedback .form-field {
+    margin-top: 18px;
+  }
+}
+.Feedback{
+  margin-left: 100px;
+}
+
+.star-rating {
+  font-size: 0; /* Remove the font size to avoid text selection issues */
+}
+
+.star-rating input {
+  display: none; /* Hide the radio buttons */
+}
+
+.star-rating label {
+  font-size: 24px; /* Set the size of the stars */
+  cursor: pointer;
+}
+
+.star-rating label:before {
+  content: '★'; /* Unicode character for a star */
+  padding: 5px;
+  color: #ccc; /* Default star color */
+}
+
+.star-rating input:checked ~ label:before {
+  color: #fcce05; /* Change the star color for checked (selected) stars */
+}
